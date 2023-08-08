@@ -3,6 +3,7 @@ import React from "react";
 import UPI from "../Images/upi.jpeg";
 import Card from "../Images/card.jpg";
 import Wallet from "../Images/wallet.jpg";
+import Paytmss from "../Images/ptm.png";
 import Net from "../Images/net.png";
 import Gpay from "../Images/gpay_logo.png";
 import PhonePe from "../Images/PhonePe_logo.png";
@@ -119,7 +120,7 @@ const Payment_page = () => {
                 {/* mode three */}
                 <div className="Mode_one mode" onClick={Paytm}>
                   <div className="gpay_mode">
-                    <img src={Gpay} alt="logo"/>
+                    <img src={Paytmss} alt="logo"/>
                   </div>
                   <div>PayTm UPI</div>
                 </div>
