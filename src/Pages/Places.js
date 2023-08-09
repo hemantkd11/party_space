@@ -228,14 +228,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
             <Grid
             //  container spacing={4} sx={{ flexGrow: 1 }}
 
-            container
-          spacing={{ xs: 1, md: 1 }}
-          columns={{ xs: 4, sm: 8, md: 12 }}
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
+            container spacing={4} sx={{ flexGrow: 1 }}
              >
               {filteredPlaces.map((place, index) => (
                 <PlaceCard

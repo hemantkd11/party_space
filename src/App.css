@@ -900,6 +900,8 @@
 .css-1bdygn-MuiGrid-root {
   margin-top: 0 !important;
   margin-left: 0 !important;
+  
+  
 }
 .css-1bdygn-MuiGrid-root{
   display: flex;
@@ -1310,6 +1312,7 @@
 }
 .payment_option_list {
   font-size: 20px;
+  font-weight: 700 ;
   padding: 10px 0px;
 }
 .payment_main_wrapper {
@@ -1376,6 +1379,9 @@
   padding: 5px;
   /* border: 1px solid black; */
   min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .mode {
   display: flex;
@@ -1404,6 +1410,7 @@
 #gpay input {
   font-size: 20px;
   padding: 5px;
+  width: 100%;
 }
 #Phonepe {
   display: none;
@@ -1412,12 +1419,14 @@
 #Phonepe input {
   font-size: 20px;
   padding: 5px;
+  width: 100%;
 }
 #Paytm {
   display: none;
   gap: 10px;
 }
 #Paytm input {
+  width: 100%;
   font-size: 20px;
   padding: 5px;
 }
@@ -1593,6 +1602,22 @@
 
 
 /* Rest of your existing CSS code */
+
+@media only screen and (max-width: 1160px) {
+.payment-way{
+  flex-direction: column;
+}
+.type_of_mode{
+  width: 100%;
+}
+.Details_of_payment{
+  width: 100%;
+}
+.places_poster_box{
+  width: 100%;
+}
+}
+
 @media only screen and (max-width: 768px) {
   .home-banner-container {
     height: 50vh;
@@ -1698,6 +1723,17 @@ width: 100%;
     background-color: rgb(255 255 255);
     padding: 0px;
   }
+
+  .Booking-place-box{
+    flex-direction: column;
+  }
+  .booking-connfirm-box{
+    width: 100%;
+  }
+  .booking-details{
+    width: 100%;
+  }
+  
 }
 @media only screen and (max-width: 600px) {
   .place-poster-text h4{
@@ -1708,6 +1744,13 @@ width: 100%;
 @media only screen and (max-width: 500px) {
 .input-box{
   flex-direction: column;
+  
+}
+.css-1bdygn-MuiGrid-root {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  gap: 10px;
+  
 }
 .search-type-input{
   width: 100%;

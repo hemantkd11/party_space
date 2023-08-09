@@ -88,7 +88,7 @@ const Payment_page = () => {
             {/* seleted mode */}
             <div className="Details_of_payment">
               <div className="selected_mode">
-                <div className="payment_option_list">Selected Mode Is Upi</div>
+                <div className="payment_option_list">Selected Mode is UPI</div>
                 {/* mode one */}
                 <div className="Mode_one mode" onClick={OpenGpay}>
                   <div className="gpay_mode">
