@@ -62,7 +62,6 @@ const Navbar = () => {
             {/* <li>
               <Link to="/checkout">About Us</Link>
             </li> */}
-
             <li>
               <Link to="/onspalce/places">Places</Link>
             </li>
@@ -87,7 +86,7 @@ const Navbar = () => {
                 width: "35px",
                 height: "35px",
               }}
-            />{" "}
+            />
             <span className="basket-count">{basket.length}</span>
           </div>
         </div>

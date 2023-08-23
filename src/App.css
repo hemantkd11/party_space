@@ -895,20 +895,17 @@
 .css-480o17-MuiGrid-root {
   margin-top: 0 !important;
   margin-left: 0 !important;
-  
 }
 .css-1bdygn-MuiGrid-root {
   margin-top: 0 !important;
   margin-left: 0 !important;
-  
-  
 }
-.css-1bdygn-MuiGrid-root{
+.css-1bdygn-MuiGrid-root {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.css-1mjcjbr-MuiGrid-root{
+.css-1mjcjbr-MuiGrid-root {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1312,7 +1309,7 @@
 }
 .payment_option_list {
   font-size: 20px;
-  font-weight: 700 ;
+  font-weight: 700;
   padding: 10px 0px;
 }
 .payment_main_wrapper {
@@ -1600,22 +1597,21 @@
 
 /* @media only screen and (max-width: 768px) start  */
 
-
 /* Rest of your existing CSS code */
 
 @media only screen and (max-width: 1160px) {
-.payment-way{
-  flex-direction: column;
-}
-.type_of_mode{
-  width: 100%;
-}
-.Details_of_payment{
-  width: 100%;
-}
-.places_poster_box{
-  width: 100%;
-}
+  .payment-way {
+    flex-direction: column;
+  }
+  .type_of_mode {
+    width: 100%;
+  }
+  .Details_of_payment {
+    width: 100%;
+  }
+  .places_poster_box {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1651,120 +1647,123 @@
     font-size: 12px;
   }
   /* poster */
-  .flex-width-poster{
+  .flex-width-poster {
     gap: 2px;
   }
-  .places_poster_box{
+  .places_poster_box {
     width: 100%;
   }
   .places_poster_box .places_poster_box_img img {
     width: 100%;
     height: 100%;
-}
-.place-poster-text{
-  width: 25%;
-  height: auto;
-}
-.place-poster-text h4{
-  font-size: 13px;
-}
-.place-poster-button{
-  width: 15%;
-  height: auto;
-  /* font-size: 12px; */
-}
-.place-poster-button button{
- 
-  font-size: 10px;
-}
-.place-poster-logo{
-  width: 30%;
-  height: auto;
-}
-.search-field{
-width: 100%;
-}
-.search-field input{
-  width: 100%;
-}
-.search-type-input h2{
-  font-size: 16px;
-}
-.check-in h2{
-  font-size: 13px;
-}
-.check-in h4{
-  font-size: 11px;
-}
-.check-out h2{
-  font-size: 13px;
-}
-.check-out h4{
-  font-size: 11px;
-}
-.check-price h2{
-  font-size: 13px;
-}
-.check-price h4{
-  font-size: 11px;
-}
+  }
+  .place-poster-text {
+    width: 25%;
+    height: auto;
+  }
+  .place-poster-text h4 {
+    font-size: 13px;
+  }
+  .place-poster-button {
+    width: 15%;
+    height: auto;
+    /* font-size: 12px; */
+  }
+  .place-poster-button button {
+    font-size: 10px;
+  }
+  .place-poster-logo {
+    width: 30%;
+    height: auto;
+  }
+  .search-field {
+    width: 100%;
+  }
+  .search-field input {
+    width: 100%;
+  }
+  .search-type-input h2 {
+    font-size: 16px;
+  }
+  .check-in h2 {
+    font-size: 13px;
+  }
+  .check-in h4 {
+    font-size: 11px;
+  }
+  .check-out h2 {
+    font-size: 13px;
+  }
+  .check-out h4 {
+    font-size: 11px;
+  }
+  .check-price h2 {
+    font-size: 13px;
+  }
+  .check-price h4 {
+    font-size: 11px;
+  }
 
-.places_poster_box-check{
-  display: none;
-}
-.checkout-main {
-  display: flex;
-  flex-direction: column;
-  /* padding: 15px; */
-  width: 100%;
-}
-.checkOut-container {
-  width: 100%;
+  .places_poster_box-check {
+    display: none;
+  }
+  .checkout-main {
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    width: 100%;
+  }
+  .checkOut-container {
+    width: 100%;
     background-color: rgb(255 255 255);
     padding: 0px;
   }
 
-  .Booking-place-box{
+  .Booking-place-box {
     flex-direction: column;
   }
-  .booking-connfirm-box{
+  .booking-connfirm-box {
     width: 100%;
   }
-  .booking-details{
+  .booking-details {
     width: 100%;
   }
-  
 }
 @media only screen and (max-width: 600px) {
-  .place-poster-text h4{
+  .place-poster-text h4 {
     font-size: 11px;
   }
-
 }
 @media only screen and (max-width: 500px) {
-.input-box{
-  flex-direction: column;
-  
-}
-.css-1bdygn-MuiGrid-root {
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  gap: 10px;
-  
-}
-.search-type-input{
-  width: 100%;
-  height: auto;
-}
-.place-poster-text h4{
-  font-size: 10px;
-}
-.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
-  line-height: 1.2 !important;
-}
-.place-poster-button button{
-  font-size: 8px;
-}
+  .input-box {
+    flex-direction: column;
+  }
+  .css-1bdygn-MuiGrid-root {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    gap: 10px;
+  }
+  .search-type-input {
+    width: 100%;
+    height: auto;
+  }
+  .place-poster-text h4 {
+    font-size: 10px;
+  }
+  .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    line-height: 1.2 !important;
+  }
+  .place-poster-button button {
+    font-size: 8px;
+  }
+  .booking_details {
+    flex-direction: column;
+    padding: 30px 8px 80px 8px;
+  }
+  .name-box-booking {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 400px) {
   .place-card-place-name {
@@ -1772,6 +1771,35 @@ width: 100%;
     padding: 10px 0px;
     font-family: sans-serif;
     font-weight: 700;
-}
+  }
+  .checkout-details h3 {
+    font-size: 20px;
+  }
+  .checkout-image {
+    height: 180px;
+  }
+  .shopping-list {
+    padding: 10px 8px;
+  }
+  .checkout-details p {
+    font-size: 17px;
+  }
+  .checkout-details button {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+  .total-amount {
+    padding: 10px;
+    border-left: none;
+  }
+  .total-amount p {
+    font-size: 19px;
+  }
+  .subtotal-btn {
+    width: 80%;
+    font-size: 16px;
+    padding: 7px 5px;
+  }
 }
 /* @media only screen and (max-width: 768px)  end */
