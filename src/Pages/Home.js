@@ -11,14 +11,18 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Card from "../Components/Card";
 import into_onspace from "../Images/into_onspace.webp";
 import { Carousel } from "react-responsive-carousel";
+import Slide_Show from "../Components/Slide";
 const Home = () => {
   const Navigate = useNavigate();
   return (
     <div className="home-container">
       <div className="home-banner-container">
         <div className="home-banner">
+          <Slide_Show/>
+          {/* <span className="span-baneer-title">Find Your Perfect Place To Enjoy With Friends & Family</span> */}
+          
           {/* <img src={Place1} alt='Banner' width="1100px"/> */}
-          <div className="banner-text">
+          {/* <div className="banner-text">
             <div className="heading-home-onpace">
               <h1 style={{ color: "rgb(162, 212, 237)" }}>
                 Find Your Perfect Place To Enjoy With Friends & Family
@@ -29,9 +33,9 @@ const Home = () => {
                 Find Your Space
               </button>
             </div>
-          </div>
-          <div className="slider-show">
-            <Carousel
+          </div> */}
+          {/* <div className="slider-show"> */}
+            {/* <Carousel
               className="carousel-style"
               infiniteLoop
               autoPlay
@@ -46,8 +50,8 @@ const Home = () => {
               <div className="banner">
                 <img src={Place3} alt="onspace" />
               </div>
-            </Carousel>
-          </div>
+            </Carousel> */}
+          {/* </div> */}
         </div>
       </div>
 
@@ -70,7 +74,7 @@ const Box = () => {
         <div className="intro-header">
           <div className="intro-header-heading">Introduction</div>
         </div>
-        <div className="home-intro-box-text-logo">
+        <div className="home-intro-box-text-logo column-reverse">
           <div className="home-intro-text">
             On-Space is a place were you find complete solution for your perfect
             party place, Here you just have to search for your location where
