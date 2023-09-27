@@ -40,6 +40,7 @@ const Home = () => {
               infiniteLoop
               autoPlay
               showThumbs={false}
+              
             >
               <div className="banner">
                 <img src={On_space_place1} alt="onspace" />

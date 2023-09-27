@@ -854,6 +854,10 @@
   font-weight: 700;
   font-size: 25px;
 }
+.input_div_places{
+  font-size: 20px;
+  font-weight: 700;
+}
 .place-poster-logo .o {
   color: #ec0d0d;
   font-size: 40px;
@@ -918,6 +922,10 @@
 
   flex-direction: column;
   gap: 10px;
+}
+.search-type-input input{
+  font-size: 15px;
+  padding: 10px 5px;
 }
 .search-type-input h3 {
   color: #575757;
@@ -1752,7 +1760,7 @@
   .search-field input {
     width: 100%;
   }
-  .search-type-input h2 {
+  .search-type-input .input_div_places {
     font-size: 16px;
   }
   .check-in h2 {

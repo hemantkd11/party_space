@@ -51,7 +51,8 @@ const Navbar = () => {
       <div className="navbar-wrapper">
         <div className="logo-nav" onClick={() => Navigate("/")}>
           <span className="span-onspace">
-            <i>O</i>n
+            {/* <i>O</i>n */}
+             <i>F</i>un
           </span>
           -<i>S</i>pace
         </div>

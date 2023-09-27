@@ -184,7 +184,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                   onChange={HandleTimeIn}
                   required
                 />
-                <h2>Check In time</h2>
+                <div className="input_div_places">Check In time</div>
                 <h4>{timefrom || " select from"}</h4>
               </div>
               <div className="check-out search-type-input">
@@ -196,7 +196,8 @@ if(date == "" && timefrom == "" && timefromOut == ""){
 
                   required
                 />
-                <h2>Check out time</h2> <h4>{timefromOut || "select Too "}</h4>
+                <div className="input_div_places">Check out time</div> 
+                <h4>{timefromOut || "select Too "}</h4>
               </div>
               <div className="check-price search-type-input">
                 <input
@@ -207,7 +208,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                   onChange={HandleDate}
                   required
                 />
-                <h2>Book your date</h2>
+                <div className="input_div_places">Book your date</div>
                 <h4>Date : {date || "select Your Date"}</h4>
               </div>
             </div>
@@ -259,7 +260,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                 <Button variant="outlined">Book Now</Button>
               </div>
               <div className="place-poster-logo">
-                <i className="o">O</i>n-<i className="s">S</i>pace
+                <i className="o">f</i>un-<i className="s">S</i>pace
               </div>
             </div>
           </div>
