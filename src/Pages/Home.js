@@ -3,8 +3,8 @@ import Place1 from "../Images/place1.webp";
 import Place3 from "../Images/place3.jpg";
 import { useNavigate } from "react-router-dom";
 import On_space_place1 from "../Images/on_space_place1.jpg";
-// import On_space_place3 from "../Images/on_space_place3.jpg"
-// import onSpace_meeting from "../Images/onSpace_meeting.jpg"
+// import On_space_place3 from "../Images/on_space_place3.jpg";
+// import onSpace_meeting from "../Images/onSpace_meeting.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import Place1 from "../Images/place1.webp";
 // import Place1 from "../Images/place1.webp";
@@ -19,8 +19,7 @@ const Home = () => {
       <div className="home-banner-container">
         <div className="home-banner">
           <Slide_Show/>
-          {/* <span className="span-baneer-title">Find Your Perfect Place To Enjoy With Friends & Family</span> */}
-          
+          {/* <span className="span-baneer-title">Find Your Perfect Place To Enjoy With Friends & Family</span> */}          
           {/* <img src={Place1} alt='Banner' width="1100px"/> */}
           {/* <div className="banner-text">
             <div className="heading-home-onpace">

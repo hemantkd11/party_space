@@ -845,6 +845,13 @@
   align-items: center;
   justify-content: center;
 }
+.enter_location_input{
+  font-size: 20px;
+  font-weight: 700;
+}
+.selected_area{
+  color: red;
+}
 .place-poster-logo {
   width: 20%;
   height: 150px;

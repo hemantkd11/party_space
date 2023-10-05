@@ -173,8 +173,8 @@ if(date == "" && timefrom == "" && timefromOut == ""){
 
             <div className="input-box">
               <div className="search-text-box search-type-input">
-                <h2>Enter Location</h2>
-                <h3>{searchdata}</h3>
+                <div className="enter_location_input">Enter Location</div>
+                <h3><i className="selected_area">Selected Area* </i> : {searchdata  || "Bengalore" }</h3>
               </div>
               <div className="check-in search-type-input">
                 <input
@@ -260,7 +260,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                 <Button variant="outlined">Book Now</Button>
               </div>
               <div className="place-poster-logo">
-                <i className="o">f</i>un-<i className="s">S</i>pace
+                <i className="o">O</i>n-<i className="s">S</i>pace
               </div>
             </div>
           </div>
