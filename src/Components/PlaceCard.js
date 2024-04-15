@@ -25,7 +25,7 @@ const PlaceCard = ({ image, place_name, area, price }) => {
     }
   };
   return (
-    <Grid xs={10} sm={6} md={3} padding={2}>
+    <Grid xs={10} sm={6} md={3} padding={2} className="Grid-box">
       <div className="gird-item-img">
         <img src={image} />
         <div className="place-card-place-name">{place_name}</div>

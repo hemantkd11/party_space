@@ -782,16 +782,19 @@
 
 /* places css start */
 .place_conatiner {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 30px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(75deg,rgb(79, 165, 226),rgb(254, 254, 254));
 }
+
 
 .place_wrapper {
   width: 90%;
+  margin-top: 30px;
 }
 
 .place_main_container {
@@ -883,6 +886,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 .place_search_heading {
   text-align: center;
@@ -946,8 +950,8 @@
   width: 100%;
   height: auto;
   gap: 20px;
-  box-shadow: 0 0 10px black;
-  padding: 30px 10px 20px 10px;
+  /* box-shadow: 0 0 10px black; */
+  padding: 30px 5px 20px 5px;
 }
 .css-480o17-MuiGrid-root {
   margin-top: 0 !important;
@@ -966,6 +970,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.Grid-box:hover{
+box-shadow: 0 0 5px rgb(59, 58, 58);
+overflow: hidden;
+border-radius: 20px;
 }
 .css-1nv1o5k-MuiGrid-root {
   display: flex;

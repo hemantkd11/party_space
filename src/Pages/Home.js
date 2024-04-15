@@ -1,7 +1,7 @@
 import React from "react";
 import Place1 from "../Images/place1.webp";
 import Place3 from "../Images/place3.jpg";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import On_space_place1 from "../Images/on_space_place1.jpg";
 // import On_space_place3 from "../Images/on_space_place3.jpg";
 // import onSpace_meeting from "../Images/onSpace_meeting.jpg";
@@ -10,10 +10,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import Place1 from "../Images/place1.webp";
 import Card from "../Components/Card";
 import into_onspace from "../Images/into_onspace.webp";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import Slide_Show from "../Components/Slide";
 const Home = () => {
-  const Navigate = useNavigate();
+  // const Navigate = useNavigate();
   return (
     <div className="home-container">
       <div className="home-banner-container">

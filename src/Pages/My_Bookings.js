@@ -1,7 +1,6 @@
 import React from "react";
 import { useStateValue } from "../Context/UseContex";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
-
 const My_Bookings = () => {
   const [{ OrderPage }, dispatch] = useStateValue();
   return (
@@ -34,8 +33,9 @@ const My_Bookings = () => {
                     <strong>From : </strong> {Items.From}{" "}
                   </span>
                   <span className="arrow">
-                    {" "}
-                    <TrendingFlatIcon />{" "}
+                   
+                    <TrendingFlatIcon />
+                    
                   </span>
 
                   <span>

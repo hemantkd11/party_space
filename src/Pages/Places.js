@@ -174,7 +174,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
             <div className="input-box">
               <div className="search-text-box search-type-input">
                 <div className="enter_location_input">Enter Location</div>
-                <h3><i className="selected_area">Selected Area* </i> : {searchdata  || "Bengalore" }</h3>
+                <h3><i className="selected_area">Selected Area* </i>: {searchdata  || "Bengalore" }</h3>
               </div>
               <div className="check-in search-type-input">
                 <input
@@ -182,6 +182,7 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                   placeholder="From"
                   className="time"
                   onChange={HandleTimeIn}
+             
                   required
                 />
                 <div className="input_div_places">Check In time</div>

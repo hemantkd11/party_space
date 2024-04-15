@@ -1,4 +1,4 @@
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import React from "react";
 import Dropdown from "./DropDown";
 import ShopTwoOutlinedIcon from "@mui/icons-material/ShopTwoOutlined";
