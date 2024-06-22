@@ -52,7 +52,7 @@
   width: 100%;
   padding-bottom: 50px;
   display: flex;
-   margin-top: 80px;
+  margin-top: 80px;
   flex-direction: column;
   align-items: center;
 }
@@ -92,8 +92,7 @@
   left: 0;
   height: 30%;
   background-color: rgba(0, 0, 0, 0.47);
-  right: 
-  0;
+  right: 0;
   color: rgb(162, 212, 237);
   padding-left: 20px;
   padding-right: 20px;
@@ -126,7 +125,7 @@
   display: flex;
   width: 90%;
 }
-.home-intro-main-box{
+.home-intro-main-box {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -212,14 +211,8 @@
   width: 100%;
 }
 
-
 /* user register end */
 /* For desktop/laptop devices */
-
-
-
-
-
 
 .home-intro-container {
   width: 100%;
@@ -228,9 +221,6 @@
   align-items: center;
   padding: 20px 0;
 }
-
-
-
 
 /* nav start */
 
@@ -391,10 +381,7 @@
   justify-content: center !important;
 }
 
-
-
-
-.slide-img > div{
+.slide-img > div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -403,15 +390,14 @@
   height: 90vh;
   /* max-height: 300px; */
 }
-.slide-img span{
+.slide-img span {
   padding: 20px;
   font-size: 20px;
   font-weight: 900;
   padding: 10px 70px;
-  text-align:center ;
+  text-align: center;
   color: greenyellow;
-  background-color:#00000066;
-
+  background-color: #00000066;
 }
 /* .carousel-style{
   height: 200px !important;
@@ -779,7 +765,6 @@
   background: rgb(49, 121, 162);
 }
 
-
 /* places css start */
 .place_conatiner {
   margin-top: 80px;
@@ -788,9 +773,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(75deg,rgb(79, 165, 226),rgb(254, 254, 254));
+  background: linear-gradient(75deg, rgb(79, 165, 226), rgb(254, 254, 254));
 }
-
 
 .place_wrapper {
   width: 90%;
@@ -848,11 +832,11 @@
   align-items: center;
   justify-content: center;
 }
-.enter_location_input{
+.enter_location_input {
   font-size: 20px;
   font-weight: 700;
 }
-.selected_area{
+.selected_area {
   color: red;
 }
 .place-poster-logo {
@@ -864,7 +848,7 @@
   font-weight: 700;
   font-size: 25px;
 }
-.input_div_places{
+.input_div_places {
   font-size: 20px;
   font-weight: 700;
 }
@@ -895,12 +879,27 @@
 }
 .search-field {
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  /* justify-content: center; */
+}
+.search-field:hover .info-text-for-search {
+  display: flex;
 }
 .search-field input {
   font-size: 20px;
   padding: 5px;
   border-radius: 5px;
   border: 0px;
+  border: none;
+  border: none;
+  text-transform: lowercase;
+  outline: none;
+  width: 90%;
+  border-bottom: 1px solid gray;
 }
 .search-field input:active {
   border: 0px;
@@ -912,6 +911,11 @@
   display: flex;
   justify-content: space-between;
   /* gap: 5px; */
+}
+.search-field img {
+  box-sizing: border-box;
+  max-width: 20px;
+  position: relative;
 }
 .time {
   font-size: 17px;
@@ -934,12 +938,42 @@
   flex-direction: column;
   gap: 10px;
 }
-.search-type-input input{
+.search-type-input input {
   font-size: 15px;
   padding: 10px 5px;
 }
 .search-type-input h3 {
   color: #575757;
+}
+/* .info-text-for-search {
+  position: absolute;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background: black;
+  width: 100px;
+  height: 100px;
+} */
+.info-text-for-search {
+  display: none;
+  position: absolute;
+  top: 80%;
+  left: 77%;
+  transform: translateX(-50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background: black;
+  width: auto;
+  height: 150px;
+  max-width: 250px;
+  white-space: normal;
+  word-wrap: break-word;
 }
 .all_palces {
   display: flex;
@@ -971,10 +1005,10 @@
   align-items: center;
   justify-content: center;
 }
-.Grid-box:hover{
-box-shadow: 0 0 5px rgb(59, 58, 58);
-overflow: hidden;
-border-radius: 20px;
+.Grid-box:hover {
+  box-shadow: 0 0 5px rgb(59, 58, 58);
+  overflow: hidden;
+  border-radius: 20px;
 }
 .css-1nv1o5k-MuiGrid-root {
   display: flex;
@@ -1686,7 +1720,7 @@ border-radius: 20px;
   }
   .services-contant-part1 {
     display: flex;
-     flex-direction: column;
+    flex-direction: column;
     width: 100%;
     align-items: center;
   }
@@ -1694,12 +1728,11 @@ border-radius: 20px;
     padding-top: 10px;
     font-size: 24px;
   }
-  .text-comp{
+  .text-comp {
     font-size: 20px;
     height: auto;
     padding-bottom: 20px;
   }
-  
 }
 
 @media only screen and (max-width: 768px) {
@@ -1734,11 +1767,11 @@ border-radius: 20px;
   .details-box label {
     font-size: 12px;
   }
-  .home-intro-text{
+  .home-intro-text {
     font-size: 15px;
   }
   .home-intro-box-text-logo {
-  gap: 30px;
+    gap: 30px;
   }
   /* poster */
   .flex-width-poster {
@@ -1774,7 +1807,7 @@ border-radius: 20px;
     width: 100%;
   }
   .search-field input {
-    width: 100%;
+    width: auto;
   }
   .search-type-input .input_div_places {
     font-size: 16px;
@@ -1829,7 +1862,7 @@ border-radius: 20px;
     width: 100% !important;
     margin-left: 0 !important;
   }
-  .Dropdown{
+  .Dropdown {
     left: -160px;
   }
 }
@@ -1841,19 +1874,19 @@ border-radius: 20px;
     width: 100%;
     padding: 0;
   }
-  .css-sghohy-MuiButtonBase-root-MuiButton-root{
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
     font-size: 12px;
     padding: 5px 5px !important;
   }
-  .nav-btn-log span{
-    font-size: 20px ;
+  .nav-btn-log span {
+    font-size: 20px;
     padding: 0px 3px;
   }
-  .nav-btn-log button{
+  .nav-btn-log button {
     padding: 5px 8px;
     font-size: 12px;
   }
-  .navbar-menu-box{
+  .navbar-menu-box {
     display: none;
   }
 }
@@ -1864,14 +1897,14 @@ border-radius: 20px;
   .home-intro-box-text-logo {
     gap: 30px;
     flex-direction: column;
-    }
-    .column-reverse{
-      display: flex;
-      flex-direction: column-reverse !important;
-    }
-    .home-intro-text{
-      width: 100%;
-    }
+  }
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .home-intro-text {
+    width: 100%;
+  }
   .css-1bdygn-MuiGrid-root {
     margin-top: 0 !important;
     margin-left: 0 !important;

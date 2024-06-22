@@ -13,6 +13,7 @@ import Meeting_place6 from "../Images/meeting_place6.jpg";
 import Meeting_place7 from "../Images/meeting_place7.jpg";
 import Meeting_place8 from "../Images/meeting_place8.jpg";
 import Open_place4 from "../Images/open_place4.jpg";
+import Info from "../Images/info.png";
 
 const Poster_Text =
   "Enjoy your quality time with love once, friends and family with On-Space.";
@@ -140,16 +141,24 @@ const Places = () => {
     //   return;
     // }
     // Call DD to dispatch the time and date details
-if(date == "" && timefrom == "" && timefromOut == ""){
-  alert("pleace enter date and time **")
-}else{
-  DD();
-}
-// goodmorning everyone myself  hemnat kumar diwakar Im a full stack develover and currently working as a frontend  reactjs developer as a frontend ui developer my responsibility is to create a website with attractive user innterface and 
+    if (date == "" && timefrom == "" && timefromOut == "") {
+      alert("pleace enter date and time **");
+    } else {
+      DD();
+    }
+    // goodmorning everyone myself  hemnat kumar diwakar Im a full stack develover and currently working as a frontend  reactjs developer as a frontend ui developer my responsibility is to create a website with attractive user innterface and
     // if (filteredPlaces.length === 0) {
     //   alert("No places found for the entered location");
     //   return;
     // }
+  };
+  const [showInfo, setShowInfo] = useState(false);
+
+  const ShowInfoMouseOver = () => {
+    setShowInfo(true);
+  };
+  const ShowInfoMousedown = () => {
+    setShowInfo(false);
   };
   return (
     <div className="place_conatiner">
@@ -169,12 +178,29 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                 onChange={(e) => setSearchData(e.target.value)}
                 // onClick={AddTimeDate}
               />
+              <img
+                onMouseOver={ShowInfoMouseOver}
+                onMouseOut={ShowInfoMousedown}
+                src={Info}
+                alt="info"
+              />
+              {showInfo && (
+                <div className="info-text-for-search">
+                  <p>
+                    Try with area like :- " kormagala ", " hsr layout ", " agara
+                    ", "Indranagar"
+                  </p>
+                </div>
+              )}
             </div>
 
             <div className="input-box">
               <div className="search-text-box search-type-input">
                 <div className="enter_location_input">Enter Location</div>
-                <h3><i className="selected_area">Selected Area* </i>: {searchdata  || "Bengalore" }</h3>
+                <h3>
+                  <i className="selected_area">Selected Area* </i>:{" "}
+                  {searchdata || "Bengalore"}
+                </h3>
               </div>
               <div className="check-in search-type-input">
                 <input
@@ -182,7 +208,6 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                   placeholder="From"
                   className="time"
                   onChange={HandleTimeIn}
-             
                   required
                 />
                 <div className="input_div_places">Check In time</div>
@@ -194,10 +219,9 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                   className="time"
                   placeholder="From"
                   onChange={HandleTimeOut}
-
                   required
                 />
-                <div className="input_div_places">Check out time</div> 
+                <div className="input_div_places">Check out time</div>
                 <h4>{timefromOut || "select Too "}</h4>
               </div>
               <div className="check-price search-type-input">
@@ -226,12 +250,13 @@ if(date == "" && timefrom == "" && timefromOut == ""){
           {/*  */}
 
           <div className="place_list">
-        
             <Grid
-            //  container spacing={4} sx={{ flexGrow: 1 }}
+              //  container spacing={4} sx={{ flexGrow: 1 }}
 
-            container spacing={4} sx={{ flexGrow: 1 }}
-             >
+              container
+              spacing={4}
+              sx={{ flexGrow: 1 }}
+            >
               {filteredPlaces.map((place, index) => (
                 <PlaceCard
                   key={index}
@@ -244,8 +269,6 @@ if(date == "" && timefrom == "" && timefromOut == ""){
                 />
               ))}
             </Grid>
-           
-
           </div>
           {/*  */}
           {/* poster */}
