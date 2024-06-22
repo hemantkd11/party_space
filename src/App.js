@@ -23,7 +23,7 @@ function App() {
       <Navbar />
       {/* <Newnav/> */}
       <Routes>
-        <Route path="/party_space/" element={<Home />} />
+        <Route path="party_space/" element={<Home />} />
         <Route path="/user_login" element={<User_login />} />
         <Route path="/place_owner_login" element={<Place_owner_login />} />
         <Route path="/onspace/user_register" element={<User_register />} />
