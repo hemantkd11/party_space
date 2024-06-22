@@ -23,18 +23,27 @@ function App() {
       <Navbar />
       {/* <Newnav/> */}
       <Routes>
-        <Route path="./" element={<Home />} />
-        <Route path="/user_login" element={<User_login />} />
-        <Route path="/place_owner_login" element={<Place_owner_login />} />
-        <Route path="/onspace/user_register" element={<User_register />} />
-        <Route path="/host_register" element={<Vender_register />} />
-        <Route path="/onspalce/places" element={<Places />} />
-        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/party_space/" element={<Home />} />
+        <Route path="/party_space/user_login" element={<User_login />} />
+        <Route
+          path="/party_space/place_owner_login"
+          element={<Place_owner_login />}
+        />
+        <Route
+          path="/party_space/onspace/user_register"
+          element={<User_register />}
+        />
+        <Route
+          path="/party_space/host_register"
+          element={<Vender_register />}
+        />
+        <Route path="/party_space/onspalce/places" element={<Places />} />
+        <Route path="/party_space/checkout" element={<CheckoutPage />} />
         {/* <Route path="/rent" element={<RentApp/>}/> */}
-        <Route path="/add_details" element={<Add_details />} />
-        <Route path="/Payment" element={<Payment_page />} />
-        <Route path="/mybooking" element={<My_Bookings />} />
-        <Route path="/host" element={<Host />} />
+        <Route path="/party_space/add_details" element={<Add_details />} />
+        <Route path="/party_space/Payment" element={<Payment_page />} />
+        <Route path="/party_space/mybooking" element={<My_Bookings />} />
+        <Route path="/party_space/host" element={<Host />} />
       </Routes>
       <Footer />
     </Router>
