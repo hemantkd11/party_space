@@ -1,7 +1,6 @@
 import React from "react";
 import { useStateValue } from "../Context/UseContex";
 import { useNavigate } from "react-router-dom";
-import { type } from "@testing-library/user-event/dist/type";
 // import { rootShouldForwardProp } from "@mui/material/styles/styled";
 
 const Add_Details_Component = ({
@@ -38,8 +37,6 @@ const Add_Details_Component = ({
     });
 
     Navigate("/Payment");
-    // basket = "";
-    // dispatch({ type: "ClearBookings" });
   };
   return (
     <>
