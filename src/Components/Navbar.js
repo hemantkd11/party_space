@@ -1,16 +1,15 @@
 import { Link, useNavigate } from "react-router-dom";
 import React from "react";
-import Dropdown from "./DropDown";
+import DoorbellIcon from "@mui/icons-material/Doorbell";
 import ShopTwoOutlinedIcon from "@mui/icons-material/ShopTwoOutlined";
-import { useStateValue } from "../Context/UseContex";
-import { Button } from "@mui/material";
 import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 import ViewListIcon from "@mui/icons-material/ViewList";
+import { Button } from "@mui/material";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import ExitToAppRoundedIcon from "@mui/icons-material/ExitToAppRounded";
-import DoorbellIcon from "@mui/icons-material/Doorbell";
+import Dropdown from "./DropDown";
+import { useStateValue } from "../Context/UseContex";
 const navlist = [
-
   {
     icon: <AccountCircleRoundedIcon />,
     List: "User Profile",
@@ -51,8 +50,7 @@ const Navbar = () => {
       <div className="navbar-wrapper">
         <div className="logo-nav" onClick={() => Navigate("/")}>
           <span className="span-onspace">
-            <i>O</i>n
-             {/* <i>F</i>un */}
+            <i>O</i>n{/* <i>F</i>un */}
           </span>
           -<i>S</i>pace
         </div>
